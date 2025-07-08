@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // JavaScript version target for compiled code
+    "module": "ESNext", // Module code generation method
+    "moduleResolution": "node", // Use Node.js module resolution strategy
+    "outDir": "./dist", // Output directory for the compiled JavaScript
+    "rootDir": "./src", // Root directory of input files
+    "esModuleInterop": true, // In part, allowing default imports
+    "skipLibCheck": true, // Skips type checking of declaration files
+    "forceConsistentCasingInFileNames": true, // Enforce consistent file naming
+    "strict": true // Enables all strict type-checking options
+  },
+  "include": ["src/**/*"] // Includes all TypeScript files in the src directory and its subdirectories
+}
