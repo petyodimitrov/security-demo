@@ -43,6 +43,11 @@ npm install
 npx tsx src/index.ts
 ```
 
+After running, access the application in your browser at:
+```
+http://localhost:3000
+```
+
 ---
 
 ## 📦 Key packages used
